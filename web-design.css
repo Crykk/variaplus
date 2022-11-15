@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+}
+
+/* Bar starts here */
+.bar {
+    background-color: #6495ed;
+    height: 70px;
+}
+
+.bar-link {
+    display: flex;
+    position: relative;
+    bottom: 25%;
+}
+
+.bar a {
+    text-decoration: none;
+}
+
+.bar h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    top: 25%;
+    margin-left: 20px;
+}
+
+.bar h2:hover {
+    color: rgb(192, 192, 192);
+}
+
+/* Bar ends here */
+
+/* Header starts here */
+.header {
+    background-image: url('https://media.istockphoto.com/id/1372155500/photo/the-intertwining-wires-flash-in-different-colors-3d-rendering-illustration.jpg?b=1&s=170667a&w=0&k=20&c=Svov8q5yeusJr9_FnXNIRUADscVtLDpjqq2bP19qqWY=');
+    background-size: cover;
+    width: auto;
+    height: 1000px;
+    /*
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    left: 22.5%;
+    */
+}
+
+.header-body {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 1600px;
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: large;
+    position: relative;
+    top: 70px;
+}
+
+.header-body h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-content {
+    position: relative;
+    top: 5%;
+}
+
+.about-us {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    display: flex;
+}
+
+.quang {
+    background-color: greenyellow;
+    width: 400px;
+    height: 250px;
+}
+
+.satvik {
+    background-color: gray;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left: 4%;
+}
+
+.mikhail {
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left: 8%;
+}
+
+.header-button {
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 65%;
+}
+
+.header-button:hover {
+    background-color: rgb(78, 120, 197);
+}
+
+.header-button p {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: 25%;
+}
+
+.header-button a {
+    text-decoration: none;
+}
+/* Header ends here */
+
+/* Header 2 starts here */
