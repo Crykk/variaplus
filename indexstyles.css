@@ -1,0 +1,11 @@
+.logo {
+    display: block;
+    position: relative; 
+    margin: 150px 50px 50px 585px;
+    width: 600px;
+    height: 600px;
+}
+
+.background {
+    background-color: rgb(103,121,255);
+}
