@@ -33,24 +33,18 @@ body {
 
 /* Bar ends here */
 
-/* Header starts here */
+/* First header starts here */
 .header {
     background-image: url('https://media.istockphoto.com/id/1372155500/photo/the-intertwining-wires-flash-in-different-colors-3d-rendering-illustration.jpg?b=1&s=170667a&w=0&k=20&c=Svov8q5yeusJr9_FnXNIRUADscVtLDpjqq2bP19qqWY=');
     background-size: cover;
     width: auto;
-    height: 1000px;
-    /*
-    width: 1000px;
-    height: 600px;
-    position: relative;
-    left: 22.5%;
-    */
+    height: 1010px;
 }
 
 .header-body {
     background-color: rgba(255, 255, 255, 0.8);
     width: 1600px;
-    height: 800px;
+    height: 850px;
     margin: 0 auto;
     padding-top: 20px;
     text-align: center;
@@ -64,38 +58,47 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.header-content {
-    position: relative;
-    top: 5%;
-}
-
 .about-us {
     position: absolute;
-    left: 10%;
-    top: 35%;
+    left: 7%;
     display: flex;
+    margin: 10px;
+    padding: 20px;
 }
 
 .quang {
-    background-color: greenyellow;
     width: 400px;
     height: 250px;
+    border: 10px solid black;
 }
 
 .satvik {
-    background-color: gray;
     width: 400px;
     height: 250px;
+    border: 10px solid black;
+    position: relative;
+    left: 2%;
+}
+
+.mikhail {
+    width: 400px;
+    height: 250px;
+    border: 10px solid black;
     position: relative;
     left: 4%;
 }
 
-.mikhail {
-    background-color: cornflowerblue;
-    width: 400px;
+.header-content {
+    background-image: url('https://media.istockphoto.com/id/1392160453/photo/astronaut-cosmonaut-discovery-of-new-worlds-of-galaxies-panorama-fantasy-portal-to-far.jpg?b=1&s=170667a&w=0&k=20&c=jTR8WlC59HLMuQhyeEw_wZCjp_cGqz_mYRRXGFxWNU8=');
+    background-size: cover;
+    color: white;
+    border: 10px solid black;
+    padding: 20px;
+    width: 1250px;
     height: 250px;
     position: relative;
-    left: 8%;
+    top: 40%;
+    left: 9%;
 }
 
 .header-button {
@@ -104,7 +107,7 @@ body {
     height: 50px;
     margin: 0 auto;
     position: relative;
-    top: 65%;
+    top: 41%;
 }
 
 .header-button:hover {
@@ -126,6 +129,69 @@ body {
 .header-button a {
     text-decoration: none;
 }
-/* Header ends here */
+/* First header ends here */
 
-/* Header 2 starts here */
+/* Second header  starts here */
+.header-two {
+    display: flex;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-two-box-one {
+    background-image: url('https://media.istockphoto.com/id/487011324/fi/valokuva/sinitaivas.jpg?s=612x612&w=0&k=20&c=2wXRD8OAyziFkMUFROtTR3dpuuw9nvubfXY6wdwoJLc=');
+    background-size: cover;
+    width: 50%;
+    height: 700px;
+    /* height: 1010px; */
+
+}
+
+.header-two-box-one-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    height: 300px;
+    margin: 40px;
+    
+}
+
+.header-two-box-two {
+    background-image: url('https://media.istockphoto.com/id/1339076397/photo/blue-background-watercolor.jpg?b=1&s=170667a&w=0&k=20&c=pQ4CvYrtmthi4bWnFMZH2LBgGtjIfF5EXWb8-imc9hE=');
+    background-size: cover;
+    width: 50%;
+    height: 700px;
+    /* height: 1010px; */
+}
+
+.header-two-box-two-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    height: 300px;
+    margin: 40px;
+}
+/* Third header starts here */
+.header-three {
+    background-image: url('https://media.istockphoto.com/id/1405329949/photo/dramatic-empty-sunset-sky-only-for-background.jpg?b=1&s=170667a&w=0&k=20&c=kdWOaVINnnohTGe6cWbIWgzIwqJNyNrv9gsnQmPMDcs=');
+    background-size: cover;
+    height: 700px;
+    border: 5px solid black;
+}
+
+.header-three-top {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+
+.header-three-box-one-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 200px;
+    /* width: 200px; */
+    margin: 80px;
+    padding: 30px;
+}
+
+.header-three-bot {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+/* Third header ends here */
