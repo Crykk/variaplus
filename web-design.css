@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+}
+
+/* Bar starts here */
+.bar {
+    background-color: #6495ed;
+    height: 70px;
+}
+
+.bar-link {
+    display: flex;
+    position: relative;
+    bottom: 25%;
+}
+
+.bar a {
+    text-decoration: none;
+}
+
+.bar h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    top: 25%;
+    margin-left: 20px;
+}
+
+.bar h2:hover {
+    color: rgb(192, 192, 192);
+}
+
+/* Bar ends here */
+
+/* First header starts here */
+.header {
+    background-image: url('https://media.istockphoto.com/id/1372155500/photo/the-intertwining-wires-flash-in-different-colors-3d-rendering-illustration.jpg?b=1&s=170667a&w=0&k=20&c=Svov8q5yeusJr9_FnXNIRUADscVtLDpjqq2bP19qqWY=');
+    background-size: cover;
+    width: auto;
+    height: 1010px;
+}
+
+.header-body {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 1600px;
+    height: 850px;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: large;
+    position: relative;
+    top: 70px;
+}
+
+.header-body h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-us {
+    position: absolute;
+    left: 7%;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+}
+
+.quang {
+    width: 400px;
+    height: 250px;
+    border: 10px solid black;
+}
+
+.satvik {
+    width: 400px;
+    height: 250px;
+    border: 10px solid black;
+    position: relative;
+    left: 2%;
+}
+
+.mikhail {
+    width: 400px;
+    height: 250px;
+    border: 10px solid black;
+    position: relative;
+    left: 4%;
+}
+
+.header-content {
+    background-image: url('https://media.istockphoto.com/id/1392160453/photo/astronaut-cosmonaut-discovery-of-new-worlds-of-galaxies-panorama-fantasy-portal-to-far.jpg?b=1&s=170667a&w=0&k=20&c=jTR8WlC59HLMuQhyeEw_wZCjp_cGqz_mYRRXGFxWNU8=');
+    background-size: cover;
+    color: white;
+    border: 10px solid black;
+    padding: 20px;
+    width: 1250px;
+    height: 250px;
+    position: relative;
+    top: 40%;
+    left: 9%;
+}
+
+.header-button {
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 41%;
+}
+
+.header-button:hover {
+    background-color: rgb(78, 120, 197);
+}
+
+.header-button p {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: 25%;
+}
+
+.header-button a {
+    text-decoration: none;
+}
+/* First header ends here */
+
+/* Second header  starts here */
+.header-two {
+    display: flex;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header-two-box-one {
+    background-image: url('https://media.istockphoto.com/id/487011324/fi/valokuva/sinitaivas.jpg?s=612x612&w=0&k=20&c=2wXRD8OAyziFkMUFROtTR3dpuuw9nvubfXY6wdwoJLc=');
+    background-size: cover;
+    width: 50%;
+    height: 700px;
+    /* height: 1010px; */
+
+}
+
+.header-two-box-one-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    height: 300px;
+    margin: 40px;
+    
+}
+
+.header-two-box-two {
+    background-image: url('https://media.istockphoto.com/id/1339076397/photo/blue-background-watercolor.jpg?b=1&s=170667a&w=0&k=20&c=pQ4CvYrtmthi4bWnFMZH2LBgGtjIfF5EXWb8-imc9hE=');
+    background-size: cover;
+    width: 50%;
+    height: 700px;
+    /* height: 1010px; */
+}
+
+.header-two-box-two-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    height: 300px;
+    margin: 40px;
+}
+/* Third header starts here */
+.header-three {
+    background-image: url('https://media.istockphoto.com/id/1405329949/photo/dramatic-empty-sunset-sky-only-for-background.jpg?b=1&s=170667a&w=0&k=20&c=kdWOaVINnnohTGe6cWbIWgzIwqJNyNrv9gsnQmPMDcs=');
+    background-size: cover;
+    height: 700px;
+    border: 5px solid black;
+}
+
+.header-three-top {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+
+.header-three-box-one-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 200px;
+    /* width: 200px; */
+    margin: 80px;
+    padding: 30px;
+}
+
+.header-three-bot {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+/* Third header ends here */
