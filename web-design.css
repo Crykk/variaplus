@@ -210,6 +210,40 @@ body {
     top: 20px;
 }
 
+.header-three-image-decoration {
+    display: flex;
+    margin: 10px;
+    width: 80%;
+    position: relative;
+    left: 25%;
+    top: 70px;
+}
+
+.header-three-image-one {
+    background-image: url();
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
+.header-three-image-two {
+    background-image: url();
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 2%;
+}
+
+.header-three-image-three {
+    background-image: url();
+    background-color: #6494ed;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 4%;
+}
+
 .header-three-bot {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 30px;
@@ -220,29 +254,33 @@ body {
 .bottom-bar {
     background-image: url('https://images.unsplash.com/photo-1596180262479-467c9ef61fdc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2lkdGh8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
     background-size: cover;
-    font-family: 'Times New Roman', Times, serif;
     height: 820px;
 }
 
-.bottom-bar-content {
+.bottom-bar-link {
     padding: 50px;
-    width: 11%;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* width: 10.4%; */
 }
 
-.bottom-bar-content a {
+.bottom-bar-link a {
     color: white;
     text-decoration: none;
 }
 
-.bottom-bar-content a:hover {
+.bottom-bar-link a:hover {
     color: rgb(197, 131, 131);
     text-decoration: none;
 }
 
-.bottom-bar-content h2 {
+.bottom-bar-link h2 {
     text-align: left;
     font-size: 2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
+}
+
+.bottom-bar-link-two {
+    position: relative;
+    left: 50px;
 }
 /* bottom bar ends here */
