@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+/* bar starts here */
+.bar {
+    /* background-image: url('https://raw.githubusercontent.com/Crykk/variaplus/main/variaheaderlogo.png'); */
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
